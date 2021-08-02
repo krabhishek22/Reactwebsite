@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+::selection{
+  background-color: cadetblue;
+  color: #020203;
+}
+.navbar{
+  background-color: #fff;
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color:#565387 !important ;
+}
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #565387 ;
+}
+.navbar a:hover{
+  color: #3498db !important;
+}
+.contact-div{
+  height: 70vh;
+  padding: 40px 0;
+}
+
+@media screen and ( max-width:991px ){
+  .navbar-brand{
+    font-size:1.5rem !important;
+  }
+  .menu_active{
+    border-bottom: none;
+  }
+}
+@media screen and (max-width:500px) {
+  .navbar-brand{
+    font-size:20px !important;
+    margin-left: -30px;
+  }
+}
